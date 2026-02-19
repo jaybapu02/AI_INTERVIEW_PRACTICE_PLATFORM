@@ -1,0 +1,35 @@
+.sidebar {
+  width: 230px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.sidebar h3 {
+  color: #007bff;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.sidebar a:hover,
+.sidebar .active {
+  color: #007bff;
+}
